@@ -5,6 +5,10 @@
 
 // #define printf(...)
 
+//This is a brute-force solution
+//It takes very long for problems with largeish numbers
+//By far no where near the easiest/most efficient solution
+
 typedef std::uint64_t Type;
 typedef std::vector<Type> vec;
 

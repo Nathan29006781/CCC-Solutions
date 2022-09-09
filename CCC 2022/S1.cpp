@@ -1,6 +1,9 @@
 #include <iostream>
 #include <cmath>
 
+//Uncommented
+//Has been cleaned since contest (does not reflect submitted code)
+
 int main(){
   int num;
   std::cin >> num;

@@ -3,6 +3,9 @@
 #include <unordered_map>
 #include <tuple>
 
+//Uncommented
+//Counts violations twice for symmetry. Can be simplified for efficiency
+
 //1 is good, -1 is bad, 0, is none
 std::unordered_map<std::string, std::unordered_map<std::string, int> > students;
 std::unordered_map<std::string, std::pair<std::string, std::string> > groups;

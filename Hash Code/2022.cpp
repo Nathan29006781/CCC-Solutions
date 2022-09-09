@@ -5,7 +5,12 @@
 #include <forward_list>
 #include <vector>
 
-#define printf(...)
+//2022 GOOGLE HASH CODE
+//This code is not perfect, it reflects my contest solution
+//This code has not been cleaned since the contest date, so it may not be easy to read nor efficient at running
+//This is not guaranteed to give the best solution
+
+#define printf(...) //used to silence debugging print statements
 #define FOR(n) while(n-->0)
 #define loop(vec) for(decltype(vec)::iterator it = vec.begin(); it != vec.end(); it++)
 
